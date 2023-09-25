@@ -1,0 +1,82 @@
+﻿@model BTL_HTTTQL.Models.LendRec
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LendRec</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Desc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Desc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.InterestRate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.InterestRate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Expired)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Expired)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RecentAmt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RecentAmt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Uid)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Uid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ac)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ac.Acid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Bra)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Bra.BraId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pn.PnId)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="LendRecId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

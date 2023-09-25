@@ -1,0 +1,90 @@
+﻿@model IEnumerable<BTL_HTTTQL.Models.LendRec>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Desc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InterestRate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Expired)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecentAmt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Uid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ac)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pn)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Desc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InterestRate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Expired)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecentAmt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ac.Acid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bra.BraId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pn.PnId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LendRecId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.LendRecId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.LendRecId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

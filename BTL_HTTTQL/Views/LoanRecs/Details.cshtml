@@ -1,0 +1,79 @@
+﻿@model BTL_HTTTQL.Models.LoanRec
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>LoanRec</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Desc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Desc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.InterestRate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.InterestRate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Expried)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Expried)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RecentAmt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RecentAmt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Uid)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Uid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ac)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ac.Acid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Bra)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Bra.BraId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pn.PnId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.LoanRecId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

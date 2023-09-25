@@ -1,0 +1,213 @@
+﻿<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+        <img src="/Admin/dist/img/AdminLogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">Admin</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+                <img src="/Admin/dist/img/user2.jpg" class="img-circle elevation-2" alt="User Image">
+            </div>
+            <div class="info">
+                <a href="#" class="d-block">Nguyễn Duy Mạnh</a>
+            </div>
+        </div>
+
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
+                     with font-awesome or any other icon font library -->
+                   <!---- DASH broad -->
+                <li class="snav-item">
+                    <a asp-controller="Home" asp-action="index" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Báo cáo bán hàng và lương 
+                        </p>
+                    </a>
+                </li>
+                @*Quản lí báo cáo tài chính*@
+                <li class="snav-item">
+                    <a asp-controller="Home" asp-action="BIEUDOTAICHINH" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Báo cáo tài chính
+                        </p>
+                    </a>
+                </li>
+                
+                @*Quản lí báo cáo thống kê*@
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Quản lí báo cáo
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Đơn hàng</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @*Quản lí chi nhánh*@
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Quản lí chi nhánh
+                            <i class="fas fa-angle-left right"></i>
+                            <span class="badge badge-info right">6</span>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/layout/top-nav.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Đơn hàng</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @*Quản lí lương*@
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>
+                            Quản lí lương
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Products" asp-action="Index" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lí sản phẩm</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Quản lí thu chi-->
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-tree"></i>
+                        <p>
+                           Quản lí thu chi
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Customers" asp-action="Index" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lí khách hàng</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @*Quản lí khach hàng*@
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-edit"></i>
+                        <p>
+                            Quản lí khách hàng
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/forms/general.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Doanh số</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Quản lí nhân viên-->
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-table"></i>
+                        <p>
+                            Quản lí nhân viên
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp asp-area="" asp-controller="Accounts" asp-action="Index" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lí tài khoản quản trị</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp asp-area="" asp-controller="Categories" asp-action="Index" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lí danh mục</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp asp-area="" asp-controller="Roles" asp-action="Index" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lí quyền truy cập</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp asp-area="" asp-controller="Locations" asp-action="Index" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lí tỉnh thành</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @*Quản lí vay nợ*@
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon far fa-envelope"></i>
+                        <p>
+                            Quản lí vay nợ
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="pages/mailbox/mailbox.html" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Inbox</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @*Quản lí tài khoản*@
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Quản lí tài khoản
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp asp-area="" asp-controller="Pages" asp-action="Index" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lí Page</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>

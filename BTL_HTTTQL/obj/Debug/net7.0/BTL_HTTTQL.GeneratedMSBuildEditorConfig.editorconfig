@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BTL_HTTTQL
+build_property.RootNamespace = BTL_HTTTQL
+build_property.ProjectDir = D:\BTL_HTTTQL\BTL_HTTTQL\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\BTL_HTTTQL\BTL_HTTTQL
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/BalanceRecs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFsYW5jZVJlY3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/BalanceRecs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFsYW5jZVJlY3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/BalanceRecs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFsYW5jZVJlY3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/BalanceRecs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFsYW5jZVJlY3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/BalanceRecs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFsYW5jZVJlY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Branches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Branches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Branches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Branches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Branches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Departments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LendRecs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZFJlY3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LendRecs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZFJlY3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LendRecs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZFJlY3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LendRecs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZFJlY3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LendRecs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVuZFJlY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LoanRecs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblJlY3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LoanRecs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblJlY3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LoanRecs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblJlY3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LoanRecs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblJlY3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/LoanRecs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblJlY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Partners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Partners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Partners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Partners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Partners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Shared/_SideNavPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlTmF2UGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BTL_HTTTQL/BTL_HTTTQL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ui4kpak7qn

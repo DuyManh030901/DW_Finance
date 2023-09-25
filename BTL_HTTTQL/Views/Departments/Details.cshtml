@@ -1,0 +1,37 @@
+﻿@model BTL_HTTTQL.Models.Department
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Department</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumOfEmployees)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumOfEmployees)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BraId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BraId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Dpmid">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
